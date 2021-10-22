@@ -1,2 +1,2 @@
 TestTEST
-.
+.public test
