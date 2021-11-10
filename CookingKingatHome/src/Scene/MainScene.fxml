@@ -2,21 +2,17 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 
-<AnchorPane prefHeight="500.0" prefWidth="600.0" styleClass="MainScene" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.MainController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="MainScene" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.MainController">
    <children>
-      <Pane layoutY="-14.0" prefHeight="500.0" prefWidth="600.0" styleClass="MainScene" stylesheets="@../application/application.css">
-         <children>
-            <TextField fx:id="id" layoutX="138.0" layoutY="135.0" prefHeight="23.0" prefWidth="287.0" />
-            <Label layoutX="67.0" layoutY="139.0" text="아이디" />
-            <Label layoutX="61.0" layoutY="178.0" text="비밀번호" />
-            <Button layoutX="300.0" layoutY="218.0" mnemonicParsing="false" text="회원가입" />
-            <PasswordField layoutX="138.0" layoutY="174.0" prefHeight="23.0" prefWidth="287.0" />
-            <Button layoutX="399.0" layoutY="218.0" mnemonicParsing="false" text="로그인" />
-         </children></Pane>
+      <Button layoutX="436.0" layoutY="132.0" mnemonicParsing="false" text="마이페이지" />
+      <Button layoutX="109.0" layoutY="251.0" mnemonicParsing="false" text="도움말" />
+      <Button layoutX="109.0" layoutY="189.0" mnemonicParsing="false" text="블로그" />
+      <Button layoutX="109.0" layoutY="120.0" mnemonicParsing="false" text="레시피 검색" />
+      <Label layoutX="109.0" layoutY="156.0" text="레시피 검색하러 가기" />
+      <Label layoutX="109.0" layoutY="224.0" text="내 블로그 쓰기, 블로그 보러가기" />
+      <Label layoutX="109.0" layoutY="286.0" />
+      <Label layoutX="436.0" layoutY="163.0" text="나의 블로그 보기" />
    </children>
 </AnchorPane>
