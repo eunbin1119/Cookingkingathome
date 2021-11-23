@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.LoginScene{
+	-fx-background-image: url(/resoursess/main.png) 
+}
+.MainScene{
+	-fx-background-image: url(/resoursess/main.png)
+}
+.JoinScene{
+	-fx-background-image: url(/resoursess/join.png)
+}
+.MainBlog{
+	-fx-background-image: url(/resoursess/main.png)
+}
+.MyScene{
+	-fx-background-image: url(/resoursess/main.png)
+}
+.SearchScene{
+	-fx-background-image: url(/resoursess/main.png)
+}
+.HelpScene{
+	-fx-background-image: url(/resoursess/Help.png)
+}
