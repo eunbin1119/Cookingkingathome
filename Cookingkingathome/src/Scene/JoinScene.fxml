@@ -13,6 +13,7 @@
       <Label layoutX="161.0" layoutY="315.0" text="전화번호" />
       <Label layoutX="161.0" layoutY="251.0" text="비밀번호" />
       <Label layoutX="167.0" layoutY="181.0" text="아이디" />
-      <Button fx:id="joinbtn" layoutX="329.0" layoutY="359.0" mnemonicParsing="false" onAction="#changScene3" text="회원가입" />
+      <Button fx:id="joinBtn" layoutX="393.0" layoutY="359.0" mnemonicParsing="false" onAction="#joinScene" text="회원가입" />
+      <Button fx:id="LogBtn2" layoutX="300.0" layoutY="359.0" mnemonicParsing="false" onAction="#LogScene2" text="이전으로" />
    </children>
 </AnchorPane>
