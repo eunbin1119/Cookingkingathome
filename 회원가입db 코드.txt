@@ -1,0 +1,28 @@
+//회원 가입 (db)
+JDBCUtil db = new JDBCUtil();
+Connection con = db.getConnection();
+PreparedStatement pstmt = null;
+
+String insertSql = "insert into users(id, name, age, password) values(?,?,?,?)";
+
+String getId = id.getText();
+String getName = name.getText();
+String getAge = age.getText();
+String getPassword = password.getText();
+
+try {
+pstmt = con.prepareStatement(insertSql);
+pstmt.setString(1, getId);
+pstmt.setString(2, getName);
+pstmt.setString(3, getAge);
+pstmt.setString(4, getPassword);
+
+
+pstmt.executeUpdate();
+System.out.println("회원 가입 성공!!");
+
+} catch (Exception e) {
+e.printStackTrace();
+System.out.println("회원 가입 실패!");
+}
+db = new JDBCUtil()
