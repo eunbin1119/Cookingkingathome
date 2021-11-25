@@ -17,6 +17,6 @@
       </TableView>
       <TextField layoutX="103.0" layoutY="146.0" prefHeight="23.0" prefWidth="152.0" />
       <Button layoutX="260.0" layoutY="146.0" mnemonicParsing="false" text="검색" />
-      <Button fx:id="btn7" layoutX="428.0" layoutY="146.0" mnemonicParsing="false" onAction="#channgScene8" text="이전으로" />
+      <Button fx:id="SearchBtn2" layoutX="428.0" layoutY="146.0" mnemonicParsing="false" onAction="#SearchScene2" text="이전으로" />
    </children>
 </AnchorPane>

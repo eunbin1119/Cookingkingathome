@@ -6,12 +6,13 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="600.0" styleClass="MainScene" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.MainController">
    <children>
-      <Button fx:id="btn5" layoutX="434.0" layoutY="144.0" mnemonicParsing="false" onAction="#changScene6" text="마이페이지" />
-      <Button fx:id="btn9" layoutX="139.0" layoutY="287.0" mnemonicParsing="false" onAction="#channgScene10" text="도움말" />
-      <Button fx:id="btn4" layoutX="139.0" layoutY="220.0" mnemonicParsing="false" onAction="#channgScene5" text="블로그" />
-      <Button fx:id="btn3" layoutX="139.0" layoutY="155.0" mnemonicParsing="false" onAction="#channgScene4" text="레시피 검색" />
+      <Button fx:id="Mypage" layoutX="434.0" layoutY="144.0" mnemonicParsing="false" onAction="#MyScene" text="마이페이지" />
+      <Button fx:id="Helpbtn" layoutX="139.0" layoutY="287.0" mnemonicParsing="false" onAction="#HelpScene" text="도움말" />
+      <Button fx:id="BlogBtn" layoutX="139.0" layoutY="220.0" mnemonicParsing="false" onAction="#BlogScene" text="블로그" />
+      <Button fx:id="SearchBtn" layoutX="139.0" layoutY="155.0" mnemonicParsing="false" onAction="#SearchScene" text="레시피 검색" />
       <Label layoutX="137.0" layoutY="185.0" text="자신이 원하는 레시피를 검색하세요" />
       <Label layoutX="139.0" layoutY="321.0" text="모르는 것이 있을 때" />
       <Label layoutX="137.0" layoutY="256.0" text="자신의 블로그에 글을 쓰세요" />
+      <Button fx:id="Logbtn3" layoutX="445.0" layoutY="310.0" mnemonicParsing="false" onAction="#LogScene3" text="이전으로" />
    </children>
 </AnchorPane>

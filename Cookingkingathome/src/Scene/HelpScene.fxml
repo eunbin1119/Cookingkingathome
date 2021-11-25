@@ -5,6 +5,6 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="600.0" styleClass="HelpScene" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.MainController">
    <children>
-      <Button fx:id="btn10" layoutX="471.0" layoutY="111.0" mnemonicParsing="false" onAction="#channgScene11" text="이전으로" />
+      <Button fx:id="Helpbtn2" layoutX="471.0" layoutY="111.0" mnemonicParsing="false" onAction="#HelpScene2" text="이전으로" />
    </children>
 </AnchorPane>

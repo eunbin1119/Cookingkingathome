@@ -14,7 +14,7 @@
             <TableColumn prefWidth="129.0" text="작성자" />
         </columns>
       </TableView>
-      <Button layoutX="438.0" layoutY="121.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0" text="글쓰기" />
-      <Button fx:id="btn8" layoutX="438.0" layoutY="71.0" mnemonicParsing="false" onAction="#channgScene9" text="이전으로" />
+      <Button layoutX="350.0" layoutY="120.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0" text="글쓰기" />
+      <Button fx:id="Blogbtn2" layoutX="438.0" layoutY="120.0" mnemonicParsing="false" onAction="#BlogScene2" text="이전으로" />
    </children>
 </AnchorPane>
